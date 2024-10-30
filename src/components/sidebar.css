@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+
+.sidebar{
+  background: 	#131618;
+  margin-right: -22px;
+  
+  position: fixed; /* Tetap di tempat saat scroll */
+  overflow-y: auto; /* Jika sidebar memiliki konten yang panjang, bisa di-scroll */
+  
+}
+
+.nav{
+  background:		#131618;
+  min-height: 75vh;
+  border-radius: 12px;
+  margin-left: -23px;
+}
+
+.nav-item{
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.nav-item:hover {
+    background-color: #28c09a; /* Warna latar belakang saat hover */
+    transition: all 0.2s ease; /* Tambahkan animasi transisi */
+    border-radius: 3px;
+}
+
+.fs-6:hover{
+  color: #ffffff;
+}
+
+.fs-6 {
+  text-decoration: none;                   /*tulisan menu sidebar */
+  color: #8c8c8c;
+  font-family: "Outfit", sans-serif;
+  display: block;
+  font-weight: 300;
+
+}
+
+.tombol{
+  text-decoration: none;                   /*tulisan menu sidebar */
+  color: #8c8c8c;
+  font-family: "Outfit", sans-serif;
+    display: block;
+    border: none;
+    background: transparent; 
+    margin-left: 5px;
+    font-weight: 300;
+}
+
+.tombol:hover {
+  background-color: #28c09a; /* Warna latar belakang saat hover */
+    transition: all 0.2s ease; /* Tambahkan animasi transisi */
+    color: #ffffff;
+    border-radius: 3px;
+}
+
+.logodes{
+  margin-right: 8px;
+  margin-bottom: 4px;
+  color: #8c8c8c;
+}
+
+.tombol:hover .logodes {
+  color: #ffffff;  /* Warna logo ketika di-hover */
+}
+.nav-item .fs-6:hover .logodes {
+  color: #ffffff;  /* Warna logo ketika NavLink di-hover */
+}
+
+.namalog{
+ color: #ffffff;;
+ font-size: small;
+ font-family: "Outfit", sans-serif;
+ font-weight: 500;
+ margin: 4px;
+}
+
+
+
+
+
+.rounded-image {
+  border-radius: 50%;  /* Membuat gambar menjadi bulat */
+  border: 3px solid 	#28c09a;  /* Opsional: menambahkan border untuk gambar */
+}
+
+
+.kotak {              /*kotak logo */
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 2px;
+    margin-top: -24px;   
+    margin-left: -24px;
+    height: 80px; 
+    width: 221px;
+    margin-right: -2px;
+    background-color:#131618;
+  }
+  
+.custom-hr{                 /*garis bawah logo */
+    height: -2px;
+    margin-top: 6px;
+    border: none;             /* Menghilangkan border garis */
+  background: transparent;  /* Menghilangkan background */
+  }

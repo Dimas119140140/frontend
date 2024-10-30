@@ -1,0 +1,99 @@
+.titleproduk{                           /* Judul Halaman*/
+    color: #000000;
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    margin-left: 1px;
+    margin-bottom: -20px;
+    margin-top: 10px;
+    padding-top: 1px;
+    font-size: 32px;
+}
+
+.logotambah{
+    margin-right: 3px;
+    margin-bottom: 4px;
+  }
+
+.field{
+    margin-right: 2px;
+}
+
+.card-content1{                       /* nyari atur form nya*/
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.but1{
+    margin-right: 5px;
+    font-family: "Outfit", sans-serif;
+    width: 60px;
+}
+
+.custom-button{
+    color: white !important;
+    
+}
+
+.but2{
+    font-family: "Outfit", sans-serif;
+    width: 60px;
+}
+
+
+.header1{
+    color: white !important;
+    background-color: #28c09a !important;
+    height: 50px;
+}
+
+
+.searchbar{                      /* setting searchbar */
+    margin-top: -25px;
+}
+
+.custom-search-input {
+    width: 190px !important; /* panjang searchbar */
+    max-width: 100% !important; /* Pastikan responsif */
+    height: 30px;
+}
+
+.searchbar-form {
+    float: right; /* Mengapungkan form ke kanan */
+    margin-right: 10px;
+}
+
+.searchbar button {
+     /* Change button background color */
+    border-radius: 8px;
+    height: 30px;
+    font-size: small;
+    /*background-color: #6d6d6d; /* Change button background color */
+    
+}
+
+.pagination-controls {
+    display: flex;
+    justify-content: flex-end; /* Mengarahkan elemen ke kanan */
+    align-items: center;       /* Menyelaraskan vertikal */
+    margin-top: 65px;
+    margin-bottom: 15px;
+    margin-left: -15px;
+    width: 100%;               /* Memastikan kontrol lebar penuh */
+}
+
+.pagination-controls span {
+    margin: 0 8px;            /* Jarak antara teks dan tombol */
+}
+
+.pagination-controls button {
+    padding: 3px 10px;        /* Mengatur besar tombol */
+    font-size: 14px;           /* Menambah ukuran teks tombol */
+}
+
+
+.namaobat{
+    
+    text-align: left;
+    text-indent: 40px;
+
+}

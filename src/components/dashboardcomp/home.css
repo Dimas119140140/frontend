@@ -1,0 +1,26 @@
+.p-3{
+ margin-left: 30px;
+ font-family: "Outfit", sans-serif;
+ font-weight: bold;
+}
+
+.title{
+    color: #000000;
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    margin-left: 1px;
+    margin-bottom: 40px;
+    margin-top: 1px;
+    padding-top: 5px;
+}
+
+.title2{
+    text-align: center;
+}
+
+
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+

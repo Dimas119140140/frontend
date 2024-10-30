@@ -1,0 +1,16 @@
+.kotakkonten {
+    /*background: 	url('../assets/background.jpg') no-repeat; */
+    background: url('../assets/v870-tang-35.jpg') no-repeat center center;
+    background-size: cover; /* or contain depending on your needs */
+}
+
+/* <a href="https://www.freepik.com/free-vector/clean-medical-background_16352150.htm#from_view=detail_alsolike">Image by rawpixel.com on Freepik</a> */
+.kotakkonten {
+    margin-left: 243px; /* Sesuaikan dengan lebar sidebar */
+    height: 100vh; /* Tinggi sesuai viewport */
+    overflow-y: auto; /* Konten yang bisa di-scroll */
+}
+
+.content {
+    height: 100%;
+}

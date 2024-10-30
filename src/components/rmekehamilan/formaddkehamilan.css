@@ -1,0 +1,55 @@
+.titleForm{
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    color: #000000;
+    padding: 1px;
+    margin-left: 1px;
+}
+
+.titlekehamilan{                           /* Judul Halaman*/
+    color: #000000;
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    margin-left: 1px;
+    margin-bottom: -20px;
+    margin-top: 10px;
+    padding-top: 1px;
+    font-size: 32px;
+}
+
+.card-content{                       /* nyari atur form nya*/
+    margin-left: 20px;
+    margin-top: 6px;
+}
+
+    
+/* Kotak input */
+
+.custom-spacingPelayanan {               /* BARIS 1 Atur jarak antar kotak input pelayanan */
+    margin-right: -252px;
+    margin-left: -288px; 
+}
+
+
+.custom-spacingUmur {                   /* BARIS 2 Atur jarak antar kotak input umur */
+    margin-right: -220px;
+    margin-left: -190px; 
+}
+
+
+
+
+.tombolSimpan{
+    width: 100px;         /* Atur lebar */
+    height: 35px;  
+    margin-top: -30px;
+    margin-right: 10px;
+    
+}
+
+.control .tombolSimpan {
+    font-size: 15px;
+    
+    font-family: "Outfit", sans-serif;
+}

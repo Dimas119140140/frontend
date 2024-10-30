@@ -1,0 +1,82 @@
+.backg{
+    margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('../assets/background.jpg') no-repeat;
+  background-size: cover;
+}
+
+
+.wrapper h1{
+    color: aliceblue;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    margin-top: -60px;
+    font-weight: bold;
+}
+
+
+.login-box{
+    width: 300px;
+    height: 330px;
+    color: azure;
+    background: transparent;
+    border: 2px solid;
+    backdrop-filter: blur(18px);
+    border: none;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left: 50px;
+    align-content: center;
+}
+
+.login-box h1{
+    font-size: 32px;
+    padding-top: 45px;
+    text-align: center;
+    margin-top: -47px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.pesanerror{
+    font-size: 12px;
+    padding-top: -1px;
+    text-align: center;
+    margin-top: -8px;
+    margin-bottom: -10px;
+    font-weight: bold;
+}
+
+.inputlogin-box input{
+    padding-left: 10px;
+    margin-top: 25px;
+    width: 81%;
+    height: 37px;
+    border-radius: 7px;
+    margin-left: 30px;
+    border: snow;
+    outline: none;
+    color: #18392b;
+}
+.inputlogin-box .iconlogin{
+    position: absolute;
+    color: #18392b;
+    transform: translateY(227%);
+    font-size: 16px;
+    left: 250px;
+}
+.login-box button{
+    margin-top:50px;
+    width: 50%;
+    height: 30px;
+    border-radius: 7px;
+    margin-left: 78px;
+    border:  white;
+    outline: none;
+    background-color:  black;
+    color: white;
+}
